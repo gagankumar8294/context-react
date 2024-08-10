@@ -2,7 +2,7 @@ import React from "react";
 import styles from "../styles/ItemCard.module.css";
 import { useContext } from "react";
 import { itemContext } from '../itemContext.js';
-zz
+
 function ItemCard({ name, price }) {
 
   const value = useContext(itemContext);
