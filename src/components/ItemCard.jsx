@@ -6,19 +6,6 @@ function ItemCard({ name, price }) {
 
   const { handleRemove, handleAdd } = useValue();
 
-  // const handleAdd = () => {
-  //   setTotal(total + price);
-  //   setItem(item + 1)
-  // };
-
-  // const handleRemove = () => {
-  //   if( total <= 0 || setItem <=0 ) {
-  //     return
-  //   }
-  //   setTotal((prevState) => prevState-price);
-  //   setItem((prevState) => prevState - 1)
-  // };
-
   return (
     <div className={styles.itemCard}>
       <div className={styles.itemName}>{name}</div>

@@ -27,7 +27,7 @@ function CustomItemContext({children}) {
 
     return (
         <itemContext.Provider value={
-            {total , setTotal , item , setItem, handleRemove, handleAdd}
+            {total , item , handleRemove, handleAdd}
         }>
             {children}
         </itemContext.Provider>
